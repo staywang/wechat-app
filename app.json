@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/new_course2/new_course2",
+    "pages/new_course/new_course",
+    "pages/logs/logs",
+    "pages/about/about",
+    "pages/course_detail/course_detail",
+    "pages/shuifen/shuifen",
+    "pages/my/my"
+
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "课程介绍",
+        "iconPath": "image/icon/fristincon.png",
+        "selectedIconPath": "image/icon/select.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "作品展示",
+        "iconPath": "image/icon/abouticon.png",
+        "selectedIconPath": "image/icon/select.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "关于博美",
+        "iconPath": "image/icon/secondicon.png",
+        "selectedIconPath": "image/icon/select.png"
+      }
+    ],
+    "backgroundColor": "#BFEABC",
+    "selectedColor": "#fc9803"
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#BFEABC",
+    "navigationBarTextStyle": "black",
+    "backgroundTextStyle": "light"
+  }
+}
